@@ -10,3 +10,4 @@ This repository builds a portable Electron app that mimics Antigravity 2.0 UI.
 4. npm run build:portable
 
 Result: `dist/Antigravity-win32-x64` — zip folder itu untuk distribusi.
+# antigravity-portable
