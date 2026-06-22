@@ -1,0 +1,11 @@
+:root{--bg:#0f0f0f;--panel:#1a1a1a;--accent:#00eaff;--muted:#9aa0a6}
+*{box-sizing:border-box}
+body{margin:0;font-family:Segoe UI,Arial;background:var(--bg);color:#fff}
+.sidebar{width:240px;height:100vh;background:var(--panel);padding:20px;float:left}
+.sidebar h2{margin:0 0 12px 0}
+.sidebar ul{list-style:none;padding:0;margin:0}
+.sidebar li{padding:10px 0;cursor:pointer;color:var(--muted)}
+.sidebar li.active,.sidebar li:hover{color:var(--accent)}
+.main{margin-left:260px;padding:24px}
+header h1{margin:0 0 12px 0;font-size:20px}
+.content p{color:var(--muted)}

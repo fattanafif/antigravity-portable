@@ -1,0 +1,18 @@
+{
+  "name": "antigravity-portable",
+  "version": "2.0.0",
+  "description": "Portable Antigravity 2.0 local build (demo UI)",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "pack:asar": "npx asar pack resources/app resources/app.asar",
+    "build:portable": "node ./scripts/build-portable.js"
+  },
+  "devDependencies": {
+    "asar": "^3.0.3",
+    "electron": "28.2.3",
+    "electron-packager": "^17.1.1"
+  },
+  "author": "Your Name",
+  "license": "MIT"
+}
